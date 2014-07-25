@@ -1,0 +1,12 @@
+---------------------------  bios_first.pjt - Debug  ---------------------------
+[main.c] "C:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -pdsw225 -fr"E:/MyDesigner/dsp/bios_first/Debug" -d"_DEBUG" -d"CHIP_6713" -mv6700 -@"Debug.lkf" "main.c"
+
+[bios_firstcfg.s62] "C:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -pdsw225 -fr"E:/MyDesigner/dsp/bios_first/Debug" -d"_DEBUG" -d"CHIP_6713" -mv6700 -@"Debug.lkf" "bios_firstcfg.s62"
+
+[bios_firstcfg_c.c] "C:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -pdsw225 -fr"E:/MyDesigner/dsp/bios_first/Debug" -d"_DEBUG" -d"CHIP_6713" -mv6700 -@"Debug.lkf" "bios_firstcfg_c.c"
+
+[Linking...] "C:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

@@ -1,0 +1,8 @@
+-z -c -m"./Debug/bios_first.map" -o"./Debug/bios_first.out" -w -x -i"C:/CCStudio_v3.3/C6000/csl/lib" -i"C:/CCStudio_v3.3/C6000/xdais/lib" -i"C:/CCStudio_v3.3/bios_5_31_02/packages/ti/bios/lib" -i"C:/CCStudio_v3.3/bios_5_31_02/packages/ti/rtdx/lib/c6000" -i"C:/CCStudio_v3.3/C6000/cgtools/lib"
+"E:\MyDesigner\dsp\bios_first\Debug\bios_firstcfg.obj"
+"E:\MyDesigner\dsp\bios_first\Debug\bios_firstcfg_c.obj"
+"E:\MyDesigner\dsp\bios_first\Debug\boot_c671x.obj"
+"E:\MyDesigner\dsp\bios_first\Debug\c6713_emif.obj"
+"E:\MyDesigner\dsp\bios_first\Debug\main.obj"
+"E:\MyDesigner\dsp\bios_first\csl6713.lib"
+"E:\MyDesigner\dsp\bios_first\user.cmd"

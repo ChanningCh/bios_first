@@ -1,0 +1,51 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="E:\MyDesigner\dsp\bios_first\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="bios_first.tcf"
+Source="boot_c671x.h62"
+Source="boot_c671x.s62"
+Source="c6713_emif.s62"
+Source="csl6713.lib"
+Source="Debug\bios_first.map"
+Source="main.c"
+Source="user.cmd"
+
+[Generated Files]
+Source="bios_firstcfg.s62"
+Source="bios_firstcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -d"_DEBUG" -d"CHIP_6713" -mv6700
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\bios_first.map" -o".\Debug\bios_first.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\bios_first.map" -o".\Release\bios_first.out" -w -x
+
+["boot_c671x.h62" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["boot_c671x.h62" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\bios_first.map" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\bios_first.map" Settings: "Release"]
+ExcludeFromBuild=true
+
